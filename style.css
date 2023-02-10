@@ -20,6 +20,7 @@
   padding: 14px 20px;
   text-align: center;
   text-decoration: none;
+  background-color: #f44336; /* add a background color to the links */
 }
 
 .navbar a:hover {
@@ -28,17 +29,18 @@
 }
 
 .main {
-  background-color: rgba(241, 224, 224, 0.246);
+  background-color: #FFC107; /* change the background color to a yellow */
   padding: 20px;
 }
 
 .main h2 {
   margin-bottom: 30px;
+  color: #333; /* change the color of the h2 tag */
 }
 
 .footer {
-  background-color: rgb(221, 221, 221);
-  color: #333;
+  background-color: #4CAF50; /* change the background color of the footer to green */
+  color: #fff; /* change the color of the text to white */
   padding: 20px;
   text-align: center;
 }
