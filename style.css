@@ -2,6 +2,8 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
+
 .header {
   background: rgb(45,222,253);
   background: linear-gradient(0deg, rgba(45,222,253,1) 0%, rgba(34,87,195,1) 100%);;
@@ -41,8 +43,8 @@ body {
 }
 
 .main {
-  background-color: #a29595;
-  padding: 40px;
+  background-color: #f6e3e3;
+  padding: 0 0px 0px 0px;
 }
 
 .main h2 {
