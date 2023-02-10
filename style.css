@@ -1,5 +1,9 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
 .header {
-  background: linear-gradient(to right, #2a2f57, #16a085);
+  background-color: #2a2f57;
   color: white;
   text-align: center;
   padding: 100px 0;
@@ -7,20 +11,27 @@
 
 .header h1 {
   font-size: 40px;
+  margin: 0;
+}
+
+.header p {
+  font-size: 20px;
+  margin: 10px 0 0 0;
 }
 
 .navbar {
   background-color: #333;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar a {
   color: white;
-  float: left;
   padding: 14px 20px;
   text-align: center;
   text-decoration: none;
-  background-color: #f44336; /* add a background color to the links */
+  margin: 0 20px;
 }
 
 .navbar a:hover {
@@ -29,31 +40,24 @@
 }
 
 .main {
-  background-color: #FFC107; /* change the background color to a yellow */
-  padding: 20px;
+  background-color: #f1e0e0;
+  padding: 40px;
 }
 
 .main h2 {
   margin-bottom: 30px;
-  color: #333; /* change the color of the h2 tag */
+  font-size: 30px;
+}
+
+.main p {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .footer {
-  background-color: #4CAF50; /* change the background color of the footer to green */
-  color: #fff; /* change the color of the text to white */
+  background-color: #ddd;
+  color: #333;
   padding: 20px;
   text-align: center;
-}
-
-@media (max-width: 767px) {
-  .navbar a {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-}
-
-.logo {
-  border-radius: 50%;
+  font-size: 14px;
 }
