@@ -68,3 +68,27 @@ body {
   border-radius: 50%;
 }
 
+body.dark-mode {
+  background-color: #333;
+  color: #f6e3e3;
+}
+
+.header.dark-mode {
+  background: #333;
+  color: #f6e3e3;
+}
+
+.navbar.dark-mode {
+  background-color: #f6e3e3;
+  color: #333;
+}
+
+.main.dark-mode {
+  background-color: #333;
+  color: #f6e3e3;
+}
+
+.footer.dark-mode {
+  background-color: #333;
+  color: #f6e3e3;
+}
