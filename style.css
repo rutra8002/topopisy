@@ -1,18 +1,15 @@
 body {
   font-family: Arial, sans-serif;
-  color: black;
-  background-color: white;
 }
+
+
 
 .header {
   background: rgb(45,222,253);
-  background: linear-gradient(0deg, rgba(45,222,253,1) 0%, rgba(34,87,195,1) 100%);
+  background: linear-gradient(0deg, rgba(45,222,253,1) 0%, rgba(34,87,195,1) 100%);;
   color: white;
   text-align: center;
   padding: 100px 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 .header h1 {
@@ -47,7 +44,7 @@ body {
 
 .main {
   background-color: #f6e3e3;
-  padding: 0 80px 40px 40px;
+  padding: 0 0px 0px 0px;
 }
 
 .main h2 {
@@ -70,4 +67,3 @@ body {
 .logo {
   border-radius: 50%;
 }
-
