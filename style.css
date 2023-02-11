@@ -1,8 +1,28 @@
 body {
   font-family: Arial, sans-serif;
+  color: black;
+  background-color: white;
 }
 
+#dark-mode-toggle {
+  background-color: #333;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
 
+#dark-mode-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+#dark-mode-button:hover {
+  background-color: #444;
+}
 
 .header {
   background: rgb(45,222,253);
@@ -10,6 +30,9 @@ body {
   color: white;
   text-align: center;
   padding: 100px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .header h1 {
