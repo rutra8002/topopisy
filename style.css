@@ -23,23 +23,27 @@ body {
 }
 
 .navbar {
-  background-color: #333;
+  background-color: #392828;
   overflow: hidden;
   display: flex;
   justify-content: center;
 }
 
+
 .navbar a {
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 14px 20px;
   text-align: center;
   text-decoration: none;
-  margin: 0 20px;
+  margin: 0 0px;
+  transition: background-color 1s ease-in-out;
+  border-radius: 10%;
 }
 
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: #41e46f;
   color: black;
+  border-radius: 10%;
 }
 
 .main {
