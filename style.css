@@ -63,11 +63,11 @@ body {
 }
 
 .footer {
-  background-color: #ddd;
+  background:  linear-gradient(0deg, rgba(60, 74, 75, 0.5) 0%, rgba(112, 114, 120, 0.5) 100%);
   color: #333;
   padding: 20px;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
 }
 .logo {
   border-radius: 50%;
