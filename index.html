@@ -9,36 +9,60 @@
 
 </head>
 <body>
-  <header class="header">
-    <img src="logo.png" alt="Logo" class="logo" width="206" height="206">
-    <h1>Topopisy Pens</h1>
-    <p>Your reliable and affordable writing instrument</p>
-  </header>
+<header class="header">
+  <img src="logo.png" alt="Logo" class="logo" width="206" height="206">
+  <h1>Topopisy Pens</h1>
+  <p>Your reliable and affordable writing instrument</p>
+</header>
 
-  <nav class="navbar">
-    <a href="https://www.youtube.com/channel/UCOUEbxFfxtXfON4BGnKyo6A">YouTube</a>
-    <a href="https://www.instagram.com/topopisy/">Instagram</a>
-    <a href="#">Link</a>
-    <a href="#">Google Form</a>
-  </nav>
+<nav class="navbar">
+  <a href="https://www.youtube.com/channel/UCOUEbxFfxtXfON4BGnKyo6A">YouTube</a>
+  <a href="https://www.instagram.com/topopisy/">Instagram</a>
+  <a href="#about-us">About Us</a>
+  <a href="#contact">Contact</a>
+</nav>
 
 <main class="main container-fluid">
-  <h2>About</h2>
-  <p>Welcome to Topopisy Sp. z. o. o., a young and rapidly growing company specializing in the sale of pens with III LO Gdańsk-themed prints. Our main target audience is students, teachers, and fans of the school, as well as those who are looking for an original gift related to the school.
+  <section id="about-us">
+    <h2>About Us</h2>
+    <p>Welcome to Topopisy Sp. z. o. o., a young and rapidly growing company specializing in the sale of pens with III LO Gdańsk-themed prints. Our main target audience is students, teachers, and fans of the school, as well as those who are looking for an original gift related to the school.
 
-Our company is made up of hard-working students from III LO. Our goal is to strengthen the spirit of the school and raise funds for a noble cause. Our products are professional and always of the highest quality to ensure the satisfaction of our customers. Our range of products includes pens with prints that are the perfect gift for students, teachers, and fans of III LO Gdańsk.
+      Our company is made up of hard-working students from III LO. Our goal is to strengthen the spirit of the school and raise funds for a noble cause. Our products are professional and always of the highest quality to ensure the satisfaction of our customers. Our range of products includes pens with prints that are the perfect gift for students, teachers, and fans of III LO Gdańsk.
 
-Our team is our strength and consists of experienced specialists responsible for various areas of the business, such as customer service, social media management, and communication with pen producers. Our team leader is Karol Szczygieł, with Łukasz Sala, Artur Kummer, and Krzysztof Knap as customer service representatives. Maciej Zdanowicz is our graphic designer, and Tobiasz Małyszek is our social media administrator. Magda Sulma and Zofia Bielawa are responsible for communicating with pen producers.
+      Our team is our strength and consists of experienced specialists responsible for various areas of the business, such as customer service, social media management, and communication with pen producers. Our team leader is Karol Szczygieł, with Łukasz Sala, Artur Kummer, and Krzysztof Knap as customer service representatives. Maciej Zdanowicz is our graphic designer, and Tobiasz Małyszek is our social media administrator. Magda Sulma and Zofia Bielawa are responsible for communicating with pen producers.
 
-Our main product is a pen decorated with prints and the logo of III LO Gdańsk. The price of the pen is 3 PLN.
+      Our main product is a pen decorated with prints and the logo of III LO Gdańsk. The price of the pen is 3 PLN.
 
-Thank you for visiting our website and taking the time to learn more about us. We invite you to take a look at our product, and we look forward to serving you.</p>
-</main>
-<div>
-<footer class="footer">
-  <p>&copy;Topopisy. All rights reserved.</p>
-  <p>Email: info@yourcompany.com</p>
-</footer>
-</div>
+      Thank you for visiting our website and taking the time to learn more about us. We invite you to take a look at our product, and we look forward to serving you.</p>
+  </section>
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>We'd love to hear from you! Fill out the form below to send us a message:</p>
+      <form action="submit_form.php" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy;Topopisy. All rights reserved.</p>
+    <p>Email: info@topopisy.com</p>
+  </footer>
+
 </body>
 </html>
