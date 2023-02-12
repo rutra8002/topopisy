@@ -6,7 +6,7 @@ body {
 
 .header {
   background: rgb(45,222,253);
-  background: linear-gradient(0deg, rgba(45,222,253,1) 0%, rgba(34,87,195,1) 100%);;
+  background: linear-gradient(0deg, rgb(2, 90, 219) 0%, rgb(6, 27, 73) 100%);;
   color: white;
   text-align: center;
   padding: 100px 0;
