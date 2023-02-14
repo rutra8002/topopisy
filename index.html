@@ -128,6 +128,55 @@ print(Fraction(2, 3).multiply(Fraction(3, 4)))
 print(Fraction(2, 3).add(Fraction(3, 4)))
 print(Fraction(10, 15))
 print(Fraction(3, 9).gcd(99, 9))
+
+
+
+
+
+class Circle:
+    def __init__(self, x, y, radius, color):
+        self.x = x
+        self.y = y
+        self.radius = radius
+        self.color = color
+
+    def __str__(self):
+        return f"Circle with center at ({self.x}, {self.y}), radius {self.radius} and color {self.color}"
+
+    def is_on_screen(self):
+        return (self.x + self.radius <= 1920 and self.x - self.radius >= 0 and
+                self.y + self.radius <= 1080 and self.y - self.radius >= 0)
+
+    def distance_from_another_circle(self, other):
+        dx = self.x - other.x
+        dy = self.y - other.y
+        return math.sqrt(dx * dx + dy * dy) - self.radius - other.radius
+
+    def intersects_another_circle(self, other):
+        distance = self.distance_from_another_circle(other)
+        return distance < 0
+# tworzenie obiektów klasy Circle
+circle1 = Circle(400, 400, 100, "red")
+circle2 = Circle(600, 600, 50, "blue")
+
+# wyświetlanie obiektów
+print(circle1)
+print(circle2)
+
+# sprawdzanie, czy okrąg mieści się na ekranie
+print(circle1.is_on_screen())
+print(circle2.is_on_screen())
+
+# obliczanie odległości między okręgami
+distance = circle1.distance_from_another_circle(circle2)
+print(f"Odległość między okręgami wynosi {distance}")
+
+# sprawdzanie, czy okręgi przecinają się
+intersects = circle1.intersects_another_circle(circle2)
+if intersects:
+    print("Okręgi przecinają się")
+else:
+    print("Okręgi nie przecinają się")
 </pre></p>
   </section>
   <!-- Contact Section -->
