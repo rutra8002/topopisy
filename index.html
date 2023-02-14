@@ -82,7 +82,53 @@ print(punkt.cwiartka())
 print(punkt.czy_w_kole(5))
 inny_punkt = Point(2, 3)
 print(punkt.odleglosc_do(inny_punkt))
-    </pre></p>
+    
+class Fraction:
+    def __init__(self, numerator, denominator):
+        self.numerator = numerator
+        self.denominator = denominator
+        self.skracanie()
+
+    def __str__(self):
+        return f'{self.numerator}/{self.denominator}'
+
+    def between_minus_one_and_one(self):
+        value = self.numerator / self.denominator
+        return value > -1 and value < 1
+
+    def multiply(self, other):
+        new_num = self.numerator * other.numerator
+        new_denominator = self.denominator * other.denominator
+        return Fraction(new_num, new_denominator)
+
+    def add(self, other):
+        new_denominator = self.denominator * other.denominator
+        new_num = (self.numerator * other.denominator) + (other.numerator * self.denominator)
+        return Fraction(new_num, new_denominator)
+
+    def gcd(self, a, b):
+        if b == 0:
+            return a
+        else:
+            return self.gcd(b, a % b)
+
+    def skracanie(self):
+        gcd = self.gcd(self.numerator, self.denominator)
+        self.numerator //= gcd
+        self.denominator //= gcd
+
+
+
+
+print(Fraction(2, 3))
+print(Fraction(3, 4))
+print(Fraction(2, 3).between_minus_one_and_one())
+print(Fraction(3, 4).between_minus_one_and_one())
+print(Fraction(2, 3).multiply(Fraction(3, 4)))
+print(Fraction(2, 3).add(Fraction(3, 4)))
+print(Fraction(10, 15))
+print(Fraction(3, 9).gcd(99, 9))
+</pre></p>
   </section>
   <!-- Contact Section -->
   <section class="contact-section" id="contact">
