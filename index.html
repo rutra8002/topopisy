@@ -35,6 +35,55 @@
 
       Thank you for visiting our website and taking the time to learn more about us. We invite you to take a look at our product, and we look forward to serving you.</p>
   </section>
+  <section>
+    <h2>Pythoncode</h2>
+    <p><pre>
+      import math
+
+
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __str__(self):
+        return f'({self.x}, {self.y})'
+
+    def distance_from_centre(self):
+        return math.sqrt(self.x ** 2 + self.y ** 2)
+
+    def cwiartka(self):
+        if self.x == 0 and self.y == 0:
+            return "na początku układu współrzędnych"
+        elif self.x == 0:
+            return "na osi Y"
+        elif self.y == 0:
+            return "na osi X"
+        elif self.x > 0 and self.y > 0:
+            return "I"
+        elif self.x < 0 and self.y > 0:
+            return "II"
+        elif self.x < 0 and self.y < 0:
+            return "III"
+        else:
+            return "IV"
+
+    def czy_w_kole(self, promien):
+        return self.distance_from_centre() <= promien
+
+    def odleglosc_do(self, inny_punkt):
+        return math.sqrt((self.x - inny_punkt.x) ** 2 + (self.y - inny_punkt.y) ** 2)
+
+
+punkt = Point(3, 4)
+print(punkt)
+print(punkt.distance_from_centre())
+print(punkt.cwiartka())
+print(punkt.czy_w_kole(5))
+inny_punkt = Point(2, 3)
+print(punkt.odleglosc_do(inny_punkt))
+    </pre></p>
+  </section>
   <!-- Contact Section -->
   <section class="contact-section" id="contact">
     <div class="container">
