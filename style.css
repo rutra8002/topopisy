@@ -32,14 +32,13 @@ body {
 
 .navbar a {
   box-shadow: inset 0 0 0 0 #54b3d6;
-  color: #54b3d6;
+  color: #bac2c4;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-
   padding: 14px 20px;
   text-align: center;
   text-decoration: none;
   margin: 0 20px;
-  border-radius: 10%;
+  border-radius: 5%;
 }
 
 .navbar a:hover {
