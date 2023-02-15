@@ -6,7 +6,7 @@ body {
 
 .header {
   background: rgb(45,222,253);
-  background: linear-gradient(0deg, rgb(2, 90, 219) 0%, rgb(6, 27, 73) 100%);;
+  background: linear-gradient(0deg, rgb(2, 161, 219) 0%, rgb(6, 27, 73) 100%);;
   color: white;
   text-align: center;
   padding: 100px 0;
@@ -31,23 +31,24 @@ body {
 
 
 .navbar a {
-  color: rgb(255, 255, 255);
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
   padding: 14px 20px;
   text-align: center;
   text-decoration: none;
   margin: 0 20px;
-  transition: background-color 1s ease-in-out;
   border-radius: 10%;
 }
 
 .navbar a:hover {
-  background-color: #41e46f;
-  color: black;
-  border-radius: 10%;
+  box-shadow: inset 150px 0 0 0 #54b3d6;
+  color: white;
 }
 
 .main {
-  background:  linear-gradient(0deg, rgba(129, 175, 220, 0.5) 0%, rgba(14, 98, 222, 0.5) 100%);
+  background:  linear-gradient(0deg, rgba(17, 237, 2, 0.56) 0%, rgba(15, 203, 224, 0.86) 100%);
   padding: 10px 40px 40px;
 }
 
@@ -76,49 +77,4 @@ body {
 .contact-section {
   padding: 40px 0;
   text-align: center;
-}
-
-.contact-section h2 {
-  margin-bottom: 30px;
-  font-size: 30px;
-}
-
-.contact-section form {
-  margin-top: 30px;
-  display: inline-block;
-}
-
-.contact-section form .form-group {
-  margin-bottom: 20px;
-}
-
-.contact-section form label {
-  font-weight: bold;
-  margin-bottom: 10px;
-  display: block;
-}
-
-.contact-section form input[type="text"],
-.contact-section form input[type="email"],
-.contact-section form textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  resize: vertical;
-}
-
-.contact-section form button[type="submit"] {
-  background-color: #392828;
-  color: white;
-  padding: 10px 20px;
-  border: 0;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-.contact-section form button[type="submit"]:hover {
-  background-color: #41e46f;
-  color: black;
 }
