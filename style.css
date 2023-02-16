@@ -65,12 +65,13 @@ body {
 }
 
 .footer {
-  background:  linear-gradient(0deg, rgba(60, 74, 75, 0.5) 100%, rgba(112, 114, 120, 0.5) 100%);
+  /*background:  linear-gradient(0deg, rgba(60, 74, 75, 0.5) 100%, rgba(112, 114, 120, 0.5) 100%);*/
   color: #333;
   padding: 20px;
   text-align: center;
   font-size: 16px;
   margin-top: 100px;
+  font-weight: bold;
 }
 .logo {
   border-radius: 50%;
