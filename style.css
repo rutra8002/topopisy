@@ -2,7 +2,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
-
+#googleForm {
+  text-align: center;
+  overflow:hidden
+}
 
 .header {
   background: rgb(45,222,253);
