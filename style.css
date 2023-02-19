@@ -11,7 +11,7 @@ body {
   background: linear-gradient(0deg, rgb(2, 161, 219) 0%, rgb(6, 27, 73) 100%);;
   color: white;
   text-align: center;
-  padding: 100px 0;
+  padding-bottom: 20px;
 }
 
 .header h1 {
@@ -21,7 +21,6 @@ body {
 
 .header p {
   font-size: 20px;
-  margin: 10px 0 0 0;
 }
 
 .navbar {
