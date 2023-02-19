@@ -11,7 +11,7 @@ body {
   background: linear-gradient(0deg, rgb(2, 161, 219) 0%, rgb(6, 27, 73) 100%);;
   color: white;
   text-align: center;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 .header h1 {
