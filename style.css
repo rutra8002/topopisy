@@ -43,7 +43,7 @@ body {
 }
 
 .navbar a:hover {
-  transition: all 500ms ease-in-out;
+  transition: all 369ms ease-in-out;
   box-shadow: inset 150px 0 0 0 rgba(5, 201, 47, 0.63);
   color: white;
 }
