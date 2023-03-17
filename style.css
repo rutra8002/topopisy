@@ -66,6 +66,17 @@ body {
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.72);
 }
+.discontinued-banner {
+  background-color: #e74c3c;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+
+.discontinued-banner p {
+  margin: 0;
+}
 
 .footer {
   /*background:  linear-gradient(0deg, rgba(60, 74, 75, 0.5) 100%, rgba(112, 114, 120, 0.5) 100%);*/
