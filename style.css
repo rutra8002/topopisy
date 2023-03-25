@@ -8,7 +8,7 @@
 
 nav {
   background-color: #392828;
-  padding: 10px 20px 1px;
+  padding: 10px 5px 1px;
   transition: all 369ms ease-in-out;
 }
 
@@ -32,7 +32,7 @@ nav ul li a {
   text-decoration: none;
   color: #b7b7b7;
   font-weight: bold;
-  padding: 10px;
+  padding: 0px;
   border-radius: 5%;
   transition: all 800ms ease-out;
 }
