@@ -1,11 +1,11 @@
 $(function() {
-    $(".secretpopout").delay(10000).fadeIn();
+    $(".secretpopout").delay(100).fadeIn();
 });
 
 $(function() {
-    $(".stop").delay(15000).fadeIn();
+    $(".stop").delay(150).fadeIn();
 });
 
 $(function() {
-    $(".stopbig").delay(20000).fadeIn();
+    $(".stopbig").delay(200).fadeIn();
 });
